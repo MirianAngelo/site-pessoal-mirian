@@ -1,0 +1,150 @@
+/*Breakpouint para celular*/
+@media screen and (max-width: 600px) {
+  header {
+    padding: 10px 0 ;
+  }
+
+  header h1{
+    margin: 10px 0;
+    font-size: 200%;
+  }
+
+  #main{
+    flex-direction: column;
+  }
+
+  #menu, #content{
+    width: 100%;
+  }
+
+  #menu{
+    padding: 10px 0;
+  }
+  
+  #menu span{
+    display: none;
+  }
+
+  #menu ul{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    gap: 30px /*lacuna entre os itens deste conteiner*/;
+  }
+
+  #menu li{
+    /*margin-right: 30px;*/
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsividade -> usabilidade - ser fácil de usar // acessibilidade */
+
+/* mobile first
+   media query / media rule
+*/
+
+/*@media screen and (max-width: 600px){
+  #header{
+    padding: 10px 0;
+  }
+  
+  #header h1{
+    margin: 0;
+    font-size: 150%;
+  }
+
+  #main{
+    flex-direction: column;
+  }
+
+  #menu{
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  #menu span{
+    display: none;
+  }
+
+  #menu ul{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+  }
+
+  #menu li{
+    margin-right: 20px;
+  }
+
+  #menu li :last-of-type{
+    margin-right: 0;
+  }
+
+  #content{
+    width: 100%;
+    padding: 10px 0;
+  }
+
+   #content-title{
+    font-size: 20px;
+   }
+
+   .content-card{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+   }
+
+   .content-card span, .content-card img{
+    width: 100%;
+   }
+
+   .content-card img{
+    margin-bottom: 20px;
+   }
+
+
+   #footer{
+    text-align: center;
+   }
+} /*

@@ -1,0 +1,14 @@
+@font-face {  /* font face para dar nome e selecionar a fonte */
+  font-family: 'slogan';
+  src: url(../fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'bold';
+  src: url(../fonts/RobotoSlab-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
+}

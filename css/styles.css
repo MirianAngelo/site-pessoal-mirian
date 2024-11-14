@@ -1,0 +1,186 @@
+body{
+  margin: 0;
+}
+
+#header{
+  padding: 30px 0;
+  background-color: #605A1A; /* #605A1A */
+}
+
+#header h1{
+  text-align: center;
+  color: #EBE4C1;
+  font-family: 'slogan';
+  font-size: 250%;
+  text-shadow: 5px 5px 5px black;
+}
+
+#main{
+  display:flex;
+}
+
+#menu{
+  width: 10%;
+  background-color:var(--menu-color);
+  color: #000;
+  padding: 20px 10px;
+}
+
+#menu span{
+  font-family: 'bold';
+  font-size: 20px;
+}
+
+#menu ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+#menu li{
+  font-family: 'regular';
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+#menu li:hover{
+  color: #555;
+}
+
+#content {
+  width: 90%;
+  padding: 30px 20px;
+  background-color: var(--content-color);
+}
+
+#content-title{
+  font-family: 'bold';
+  text-align: center;
+}
+
+.movie-card{
+  background-color: var(--movie-card-color);
+  border-radius: 50px;
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  padding: 40px;
+}
+
+.movie-card img{
+  width: 50%;
+
+}
+
+.movie-card span{
+  width: 50%;
+  padding: 0 20px;
+  font-family: 'regular';
+  font-size: medium;
+}
+
+footer{
+  background-color: var(--footer-color);
+  padding: 50px 20px;
+}
+
+footer span{
+  color: #000;
+  font-family: 'bold';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #menu{
+  width: 8%;
+  background-color: #F5F2E0;
+  padding: 30px 20px;
+}
+
+#menu span{
+  font-family:'bold';
+  color: #0F1A15;
+  font-size: 150%;
+}
+
+#menu ul{
+  list-style: none; /* none = não ter valor */
+ /*  padding-left: 0;
+}
+
+#menu li{
+  font-family: 'regular';
+  margin-bottom: 10px;
+  cursor: pointer; /* mudar o ponteiro do cursor */
+/* }
+
+#menu li:hover{ /* alterar a cor quando passa o mouse em cima do item */
+ /*  color: grey;
+}
+
+
+#content{
+  padding: 30px 20px;
+  content: 82%;
+}
+
+#content-title{
+  font-family: 'bold';
+  text-align: center;
+}
+
+.content-card{
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow:  8px 8px 20px #bababa,
+                 8px 8px 20px #ffffff;
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    padding: 40px;    
+}
+
+.content-card span{
+  font-family: 'regular';
+  width: 50%;
+  padding: 0 10px;
+  font-size: 160%;
+}
+
+.content-card img{
+  width: 30%;
+}
+
+#footer{
+  background-color: #ddd4b3;
+  padding: 20px 20px;
+}
+
+#footer span{
+  color: black
+  ;
+  font-family: 'bold';
+}
+/* display flex = elementos internos vão ficar um ao lado do outro */
